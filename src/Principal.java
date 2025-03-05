@@ -1,10 +1,12 @@
 public class Principal {
     public static void main(String[] args) {
-    Doctor doctor = new Doctor("Dr. Perez", "Cardiología", 123456789, "drperez@hospital.com", "ABC123");
-    Paciente paciente = new Paciente(12345, "Alejandro Rodriguez", "XYZ987", "987654321", "1985-04-23");
-    Medicamento medicamento = new Medicamento(1, "Ibuprofeno", "200mg", "Cada 8 horas", "Ninguna");
-    Tratamiento tratamiento = new Tratamiento(7, "2025-01-20", "2025-01-27", "Mareos");
+        // Crear objetos de tipo Doctor, Paciente, Medicamento y Tratamiento
+        Doctor doctor = new Doctor("Dr. Perez", "Cardiología", 123456789, "drperez@hospital.com", "ABC123");
+        Paciente paciente = new Paciente(12345, "Alejandro Rodriguez", "XYZ987", "987654321", "1985-04-23");
+        Medicamento medicamento = new Medicamento(1, "Ibuprofeno", "200mg", "Cada 8 horas", "Ninguna");
+        Tratamiento tratamiento = new Tratamiento(7, "2025-01-20", "2025-01-27", "Mareos");
 
+        // Imprimir los objetos en formato JSON y XML
         System.out.println("Doctor en JSON:\n" + doctor.toJson());
         System.out.println("\nDoctor en XML:\n" + doctor.toXml());
 
@@ -18,4 +20,3 @@ public class Principal {
         System.out.println("\nTratamiento en XML:\n" + tratamiento.toXml());
     }
 }
-
