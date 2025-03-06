@@ -1,4 +1,4 @@
-# XML y Jaso a Java
+# XML y Json a Java
 >Nos aseguramos de entender los informes que teníamos en formato XML y JSON. 
 >Esto nos permitió ver cómo debían estructurarse los datos cuando se generaran los archivos en esos formatos.
 * Implementación de la Conversión a JSON y XML a Java
